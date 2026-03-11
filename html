@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram • Iniciar sesión</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="main-container">
+        <!-- Panel de teléfonos -->
+        <div class="phones-panel">
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/yx/r/Nm4C4y3XQ7S.png" alt="Instagram en teléfonos" class="phones-img">
+        </div>
+
+        <!-- Panel de formulario -->
+        <div class="form-panel">
+            <!-- Caja de inicio de sesión -->
+            <div class="login-box">
+                <!-- Logo de Instagram -->
+                <h1 class="instagram-logo">Instagram</h1>
+
+                <!-- Botón Facebook -->
+                <button class="facebook-btn">
+                    <i class="fab fa-facebook-square"></i>
+                    Continuar con Facebook
+                </button>
+
+                <!-- Divisor -->
+                <div class="divider">
+                    <span class="line"></span>
+                    <span class="text">O</span>
+                    <span class="line"></span>
+                </div>
+
+                <!-- Formulario -->
+                <form id="loginForm" class="login-form">
+                    <input type="text" id="username" placeholder="Teléfono, usuario o correo electrónico" required>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <button type="submit" class="login-btn">Iniciar sesión</button>
+                </form>
+
+                <!-- Olvidé contraseña -->
+                <a href="#" class="forgot-pass">¿Has olvidado la contraseña?</a>
+            </div>
+
+            <!-- Caja de registro -->
+            <div class="signup-box">
+                <span>¿No tienes una cuenta?</span>
+                <a href="#" class="signup-link">Regístrate</a>
+            </div>
+
+            <!-- Caja de descarga -->
+            <div class="download-box">
+                <span>Descarga la aplicación.</span>
+                <div class="app-buttons">
+                    <a href="#" class="app-store">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/4NKjL49Q5uQ.png" alt="App Store">
+                    </a>
+                    <a href="#" class="google-play">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v3/yD/r/Cg9Cn6732Mb.png" alt="Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="page-footer">
+        <div class="language-selector">
+            <select>
+                <option selected>ESPAÑOL (ESPAÑA)</option>
+                <option>ENGLISH (US)</option>
+                <option>PORTUGUÊS (BRASIL)</option>
+            </select>
+        </div>
+    </footer>
+</body>
+</html>
